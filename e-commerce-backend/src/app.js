@@ -7,9 +7,9 @@ import menuApi from "./routes/menu-api";
 import adminApi from "./routes/admin-api";
 
 const app = express();
-const PORT = 8080;
+const PORT = 8181;
 const MONGODB_CONNECTION_STRING =
-  "mongodb+srv://xxxx:xxxx@mern-black.kosj6y7.mongodb.net/ishop";
+  "mongodb+srv://tugsoo:bunny%401928@mongodb-tugsoo.a6x20yd.mongodb.net/ishop";
 
 app.use(cors());
 app.use(express.json());
