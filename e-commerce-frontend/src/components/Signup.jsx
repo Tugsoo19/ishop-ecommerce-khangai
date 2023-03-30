@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Signup() {
     return (
         <div>
@@ -21,7 +23,7 @@ export default function Signup() {
 
                     <button type="submit" className="btn btn-primary">Create Account</button>
                     <div className="mt-3">
-                        Already have an account? Log in
+                        Already have an account? <Link to="/login">Log in</Link>
                     </div>
                 </form>
             </div>
